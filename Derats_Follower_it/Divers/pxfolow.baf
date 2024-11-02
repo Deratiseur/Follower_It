@@ -1,0 +1,12 @@
+IF
+	Global("pxfolow","LOCALS",1)
+THEN
+	RESPONSE #100
+		LeaveParty()
+		ChangeAIScript("",DEFAULT)
+		SetLeavePartyDialogFile()
+		ChangeEnemyAlly(Myself,FAMILIAR)
+		AddFamiliar()
+		ReallyForceSpellRES("pxfollow",Myself)
+		SetGlobal("pxfolow","LOCALS",0)
+END

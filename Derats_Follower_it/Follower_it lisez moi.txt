@@ -1,0 +1,33 @@
+Follower_It
+
+Ce mod permet de transformer n’importe quel compagnon (même ceux venus de mods) en "suiveur" qui ne compte pas dans la limite de groupe.
+Pour changer un compagnon en suiveur, il suffit de lui faire boire une potion qui peut être acheté (stock illimité) :
+Dans BG1EE auprés de Bentley Ombremiroir à Brasamical.
+Dans BG2/BG2EE auprés de Hes, sur le promenade de Waukine juste à la sortie du donjon d'Irenicus.
+Dans TOB auprès du tenancier de l'Arbre à Chopines, à Saradush.
+
+Note sur les suiveurs :
+- Ils n'ont aucun banters, aucun dialogue, aucune quêtes associée.
+- Il ne progressent pas en xp. Pour les faire monter en xp (et les équiper), procédez comme suit : 
+   * vous devez avoir activé les cheats
+   * vous devez avoir une place libre dans le groupe
+   * ajoutez le suiveur au groupe en le pointant et en utilisant les touches Ctrl+Q
+   * donnez au suiveur de l'xp à l'aide la console (et équipez le si nécessaire)
+   * refaite lui boire une potion pour qu'il redevienne suiveur.
+- Vous pouvez "discuter" avec les suiveurs pour leur demander de revenir dans le groupe, mais je le déconseille : la commande Ctrl+q fonctionne très bien alors que le dialogue de retour ne marche pas très bien avec certain pnjs (certains ne supportant pas d'être exclus du groupe).
+- En utilisant QTRL-Q et la potion vous pouvez faire suivre/reprendre les pjs autant que vous voulez. Vous pouvez déclencher leur quête si vous savez comment faire.
+- Très drôle : vous pouvez même transformer le personnage principal en suiveur. Dans ce cas vous faites automatiquement game over si vous n'avez plus personne dans le groupe principal.
+
+
+Quel intérêt de faire sortir du groupe les pjs s'ils n'ont plus rien à dire ?
+Et bien, prenons en compte les pnjs qui n'ont déjà de base pas grand chose à dire :
+Wilson (BG2EE) le gros tank bien bourrin et qui n'a rien à perdre puisque rien à dire.
+Keldorn et sa super classe et son équipement très cool, il perd quelques banters et sa mini quête.
+Edwin et ses +2 sorts /niveau, il perd quelques banters et sa mini quête.
+Viconia et ses 65% de RM, elle perd quelques banters sa mini quête, et sa romance uniquement si vous jouez une femme.
+1 day npc Horace et ses +2 APR, il n'a presque rien à dire.
+1 day npc Valen et son drain de niveau cheaté, elle n'a presque rien à dire.
+1 day npc Theal et sa vision véritable et son pouvoir mutant, il n'a presque rien à dire.
+1 day npc Malthis et son équipement cheaté (dont une épée qui draine un niveau sans jds), il n'a presque rien à dire. (gardez le un peu avant de lui faire boire la potion, ses morceaux de quêtes pour le faire évoluer au max s’enchaînent et prennent 10 minutes tout au plus)
+Si vous vous fichez vraiment des dialogues : Yasraena et ses 72% de RM, +1 APR.
++ sûrement d'autres (One day) npcs pas traduits en français qui sont cheatés ^^

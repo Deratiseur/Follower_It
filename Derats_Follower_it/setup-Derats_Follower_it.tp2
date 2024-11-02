@@ -1,0 +1,34 @@
+BACKUP ~Derats_Follower_it/Backup~
+AUTHOR ~Deratiseur, at the_deratiseur@hotmail.com~
+VERSION ~v1~
+
+ALWAYS
+ACTION_DEFINE_ARRAY px_noconvert BEGIN END
+			LAF HANDLE_CHARSETS
+			INT_VAR
+			infer_charset = 1
+			STR_VAR
+			tra_path = EVAL ~%MOD_FOLDER%/Languages~
+			noconvert_array = px_noconvert
+			reload_array = px_reload
+		END
+	END
+
+LANGUAGE ~Francais~	~French~
+	~Derats_Follower_it/Languages/French/Setup.tra~
+
+LANGUAGE ~English~	~English~
+	~Derats_Follower_it/Languages/English/Setup.tra~
+	
+BEGIN @0	DESIGNATED 0
+
+COMPILE ~Derats_Follower_it/Divers/pxfolow.baf~
+COPY	~Derats_Follower_it/Divers/pxfollow.bam~	~override~
+COPY	~Derats_Follower_it/Divers/pxfollow.itm~	~override~	SAY NAME2 @1	SAY DESC @2
+ACTION_IF GAME_IS ~BGT TOB BG2EE EET~ THEN BEGIN
+COPY_EXISTING	~shop06.sto~						~override~  ADD_STORE_ITEM ~pxfollow~ FIRST #1 #0 #0 ~IDENTIFIED~ #1 ~UNLIMITED~
+COPY_EXISTING	~sarbar01.sto~						~override~  ADD_STORE_ITEM ~pxfollow~ FIRST #1 #0 #0 ~IDENTIFIED~ #1 ~UNLIMITED~
+END
+ACTION_IF GAME_IS ~BGEE EET~ THEN BEGIN
+COPY_EXISTING	~friend.sto~						~override~  ADD_STORE_ITEM ~pxfollow~ FIRST #1 #0 #0 ~IDENTIFIED~ #1 ~UNLIMITED~
+END
