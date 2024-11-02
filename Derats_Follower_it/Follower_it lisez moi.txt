@@ -2,8 +2,8 @@ Follower_It
 
 Ce mod permet de transformer n’importe quel compagnon (même ceux venus de mods) en "suiveur" qui ne compte pas dans la limite de groupe.
 Pour changer un compagnon en suiveur, il suffit de lui faire boire une potion qui peut être acheté (stock illimité) :
-Dans BG1EE auprés de Bentley Ombremiroir à Brasamical.
-Dans BG2/BG2EE auprés de Hes, sur le promenade de Waukine juste à la sortie du donjon d'Irenicus.
+Dans BG1EE auprès de Bentley Ombremiroir à Brasamical.
+Dans BG2/BG2EE auprès de Hes, sur le promenade de Waukine juste à la sortie du donjon d'Irenicus.
 Dans TOB auprès du tenancier de l'Arbre à Chopines, à Saradush.
 
 Note sur les suiveurs :
