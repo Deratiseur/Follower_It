@@ -2,8 +2,8 @@ Follower_It
 
 Ce mod permet de transformer n’importe quel compagnon (même ceux venus de mods) en "suiveur" qui ne compte pas dans la limite de groupe.
 Pour changer un compagnon en suiveur, il suffit de lui faire boire une potion qui peut être acheté (stock illimité) :
-Dans BG1EE auprès de Bentley Ombremiroir à Brasamical.
-Dans BG2/BG2EE auprès de Hes, sur le promenade de Waukine juste à la sortie du donjon d'Irenicus.
+Dans BG1EE auprés de Bentley Ombremiroir à Brasamical.
+Dans BG2/BG2EE auprés de Hes, sur le promenade de Waukine juste à la sortie du donjon d'Irenicus.
 Dans TOB auprès du tenancier de l'Arbre à Chopines, à Saradush.
 
 Note sur les suiveurs :
@@ -16,7 +16,11 @@ Note sur les suiveurs :
    * refaite lui boire une potion pour qu'il redevienne suiveur.
 - Vous pouvez "discuter" avec les suiveurs pour leur demander de revenir dans le groupe, mais je le déconseille : la commande Ctrl+q fonctionne très bien alors que le dialogue de retour ne marche pas très bien avec certain pnjs (certains ne supportant pas d'être exclus du groupe).
 - En utilisant QTRL-Q et la potion vous pouvez faire suivre/reprendre les pjs autant que vous voulez. Vous pouvez déclencher leur quête si vous savez comment faire.
-- Très drôle : vous pouvez même transformer le personnage principal en suiveur. Dans ce cas vous faites automatiquement game over si vous n'avez plus personne dans le groupe principal.
+
+
+L'option "Les suiveurs ne peuvent pas mourir" les rend invulnérables (point de vie minium = 1) mais avec un inconvénient : quand il tombent à 1 point de vie il subissent Sphère résistante d'Otiluke qui les immobilise pendant 1 tour. Et ils ont 3 points de vies quand la Sphère s'arrête, alors le moindre coup les ré-enferme.
+Cette option présente un bug/glitch : si vous réintégrez le suiveur dans le groupe il peut survivre à une mort en étant enfermé à la place dans la Sphère. Après quoi il pourra mourir normalement (tant qu'il est dans le groupe).
+
 
 
 Quel intérêt de faire sortir du groupe les pjs s'ils n'ont plus rien à dire ?
@@ -31,3 +35,11 @@ Viconia et ses 65% de RM, elle perd quelques banters sa mini quête, et sa roman
 1 day npc Malthis et son équipement cheaté (dont une épée qui draine un niveau sans jds), il n'a presque rien à dire. (gardez le un peu avant de lui faire boire la potion, ses morceaux de quêtes pour le faire évoluer au max s’enchaînent et prennent 10 minutes tout au plus)
 Si vous vous fichez vraiment des dialogues : Yasraena et ses 72% de RM, +1 APR.
 + sûrement d'autres (One day) npcs pas traduits en français qui sont cheatés ^^
+
+
+
+Historique des versions :
+V1 : première mise en ligne
+V2 : ajout du sort de vision oublié dans la première archive
+	 ajout des labels pour Selphira
+	 ajout de l'option "les suiveurs ne peuvent pas mourir".

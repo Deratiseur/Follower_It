@@ -16,7 +16,10 @@ Note on followers:
    * have him drink a potion to become a follower again.
 - You can " talk " to followers to ask them to return to the group, but I don't recommend it: the Ctrl+q command works very well, whereas the return dialogue doesn't work very well with certain pnjs (some can't stand being excluded from the group).
 - Using QTRL-Q and the potion, you can make the pjs follow/return as much as you like. You can trigger their quest if you know how.
-- Very funny: you can even turn the main character into a follower. In this case, you automatically do game over if there's no one left in the main group.
+
+
+The "Followers can't die" option makes them invulnerable (minimum hit point = 1), but with one drawback: when they drop to 1 hit point, they suffer Otiluke's Resistant Sphere, which immobilizes them for 1 turn. And they have 3 hit points when the Sphere stops, so the slightest blow locks them back in.
+This option presents a bug/glitch: if you reintegrate the follower into the party, he may survive a death by being locked in the Sphere instead. After that, he can die normally (as long as he's in the party).
 
 
 What's the point of having people follow you out if they've got nothing more to say?
@@ -31,3 +34,10 @@ Viconia and her 65% MR, she loses a few banters, her mini quest, and her romance
 1 day npc Malthis and his cheated equipment (including a sword that drains a level without save), he has almost nothing to say. ( Keep him for a while before making him drink the potion, his quest parts to make him evolve to the max flow together and take 10 minutes at most).
 If you really don't care about dialogues: Yasraena and her 72% RM, +1 APR.
 + surely other (One day) npcs that are cheated ^^
+
+
+Version history :
+V1: first online release
+V2: Forgotten vision spell in first archive added
+	 added labels for Selphira
+	 added "followers can't die" option.
