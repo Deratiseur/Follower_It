@@ -7,6 +7,15 @@ THEN
 		SetLeavePartyDialogFile()
 		ChangeEnemyAlly(Myself,FAMILIAR)
 		AddFamiliar()
-		ReallyForceSpellRES("pxfollow",Myself)
+		ReallyForceSpellRES("pxflvisi",Myself)
+		SetGlobal("pxfolow","LOCALS",2)
+END
+
+IF
+	Global("pxfolow","LOCALS",2)
+	InParty(Myself)
+THEN
+	RESPONSE #100
+		ReallyForceSpellRES("pxflresu",Myself)
 		SetGlobal("pxfolow","LOCALS",0)
 END
