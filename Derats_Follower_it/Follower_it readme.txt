@@ -39,5 +39,7 @@ If you really don't care about dialogues: Yasraena and her 72% RM, +1 APR.
 Version history :
 V1: first online release
 V2: Forgotten vision spell in first archive added
-	 added labels for Selphira
-	 added "followers can't die" option.
+	Added labels for Selphira
+	Added "followers can't die" option.
+V3: For the "followers can't die" option, the Otiluke Sphere is replaced by a tombstone: immortal followers are really "dead" for 1 turn.
+	For the "followers can't die" option, the vanilla Otiluke Sphere is now launched: so if it's modified by a mod, the modification is taken into account.

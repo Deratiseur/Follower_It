@@ -43,3 +43,5 @@ V1 : première mise en ligne
 V2 : ajout du sort de vision oublié dans la première archive
 	 ajout des labels pour Selphira
 	 ajout de l'option "les suiveurs ne peuvent pas mourir".
+V3 : Pour l'option "les suiveurs ne peuvent pas mourir" la Sphère d'Otiluke est remplacée par une pierre tombale : les suiveurs immortels sont vraiment "morts" pendant 1 tour.
+	 Pour l'option "les suiveurs ne peuvent pas mourir" c'est maintenant la Sphère d'Otiluke vanilla qui est lancée : comme ça si elle est modifiée par un mod la modification est prise en compte.
