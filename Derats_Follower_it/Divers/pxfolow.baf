@@ -2,12 +2,11 @@ IF
 	Global("pxfolow","LOCALS",1)
 THEN
 	RESPONSE #100
-		LeaveParty()
 		ChangeAIScript("",DEFAULT)
 		SetLeavePartyDialogFile()
+		LeaveParty()
 		ChangeEnemyAlly(Myself,FAMILIAR)
 		AddFamiliar()
-		ReallyForceSpellRES("pxflvisi",Myself)
 		SetGlobal("pxfolow","LOCALS",2)
 END
 
