@@ -1,10 +1,9 @@
 BACKUP ~Derats_Follower_it/Backup~
 AUTHOR ~Deratiseur, at the_deratiseur@hotmail.com~
-VERSION ~v2~
+VERSION ~v4~
 
 ALWAYS
-ACTION_IF GAME_IS ~BG2EE EET~ THEN BEGIN
-		ACTION_DEFINE_ARRAY px_reload BEGIN
+	ACTION_DEFINE_ARRAY px_reload BEGIN
 		~Setup.tra~
 		END
 		ACTION_DEFINE_ARRAY px_noconvert BEGIN END
@@ -17,7 +16,7 @@ ACTION_IF GAME_IS ~BG2EE EET~ THEN BEGIN
 			reload_array = px_reload
 		END
 	END
-END
+
 
 
 LANGUAGE ~Francais~	~French~
@@ -29,15 +28,25 @@ LANGUAGE ~English~	~English~
 BEGIN @0	DESIGNATED 0
 COMPILE ~Derats_Follower_it/Divers/pxfolow.baf~
 COPY	~Derats_Follower_it/Copy~	~override~
-COPY	~Derats_Follower_it/Divers/pxfollow.itm~	~override~	SAY NAME2 @1	SAY DESC @2
+COPY	~Derats_Follower_it/Divers/pxfolow.itm~	~override~	SAY NAME2 @1	SAY DESC @2
 ACTION_IF GAME_IS ~BGT TOB BG2EE EET~ THEN BEGIN
-COPY_EXISTING	~shop06.sto~						~override~  ADD_STORE_ITEM ~pxfollow~ FIRST #1 #0 #0 ~IDENTIFIED~ #1 ~UNLIMITED~
-COPY_EXISTING	~sarbar01.sto~						~override~  ADD_STORE_ITEM ~pxfollow~ FIRST #1 #0 #0 ~IDENTIFIED~ #1 ~UNLIMITED~
+COPY_EXISTING	~shop06.sto~						~override~  ADD_STORE_ITEM ~pxfolow~ FIRST #1 #0 #0 ~IDENTIFIED~ #1 ~UNLIMITED~
+COPY_EXISTING	~sarbar01.sto~						~override~  ADD_STORE_ITEM ~pxfolow~ FIRST #1 #0 #0 ~IDENTIFIED~ #1 ~UNLIMITED~
 END
 ACTION_IF GAME_IS ~BGEE EET~ THEN BEGIN
-COPY_EXISTING	~friend.sto~						~override~  ADD_STORE_ITEM ~pxfollow~ FIRST #1 #0 #0 ~IDENTIFIED~ #1 ~UNLIMITED~
+COPY_EXISTING	~friend.sto~						~override~  ADD_STORE_ITEM ~pxfolow~ FIRST #1 #0 #0 ~IDENTIFIED~ #1 ~UNLIMITED~
 END
 
-BEGIN @3	DESIGNATED 1
+ACTION_IF GAME_IS ~IWDEE~ THEN BEGIN
+COPY_EXISTING	~kuoswald.sto~						~override~  ADD_STORE_ITEM ~pxfolow~ FIRST #1 #0 #0 ~IDENTIFIED~ #1 ~UNLIMITED~
+END
+
+BEGIN @7	SUBCOMPONENT @3 DESIGNATED 1
 REQUIRE_PREDICATE GAME_IS ~BG2EE EET~ @4
-COPY	~Derats_Follower_it/1mort~	~override~
+COPY	~Derats_Follower_it/mort~	~override~
+COPY	~Derats_Follower_it/mort1~	~override~
+
+BEGIN @8	SUBCOMPONENT @3 DESIGNATED 2
+REQUIRE_PREDICATE GAME_IS ~BG2EE EET~ @4
+COPY	~Derats_Follower_it/mort~	~override~
+COPY	~Derats_Follower_it/mort2~	~override~

@@ -5,6 +5,7 @@ Pour changer un compagnon en suiveur, il suffit de lui faire boire une potion qu
 Dans BG1EE auprés de Bentley Ombremiroir à Brasamical.
 Dans BG2/BG2EE auprés de Hes, sur le promenade de Waukine juste à la sortie du donjon d'Irenicus.
 Dans TOB auprès du tenancier de l'Arbre à Chopines, à Saradush.
+Dans IWDEE auprès d'Oswald à Kuldahar.
 
 Note sur les suiveurs :
 - Ils n'ont aucun banters, aucun dialogue, aucune quêtes associée.
@@ -18,8 +19,12 @@ Note sur les suiveurs :
 - En utilisant QTRL-Q et la potion vous pouvez faire suivre/reprendre les pjs autant que vous voulez. Vous pouvez déclencher leur quête si vous savez comment faire.
 
 
-L'option "Les suiveurs ne peuvent pas mourir" les rend invulnérables (point de vie minium = 1) mais avec un inconvénient : quand il tombent à 1 point de vie il subissent Sphère résistante d'Otiluke qui les immobilise pendant 1 tour. Et ils ont 3 points de vies quand la Sphère s'arrête, alors le moindre coup les ré-enferme.
-Cette option présente un bug/glitch : si vous réintégrez le suiveur dans le groupe il peut survivre à une mort en étant enfermé à la place dans la Sphère. Après quoi il pourra mourir normalement (tant qu'il est dans le groupe).
+L'option "Les suiveurs ne peuvent pas mourir" les rend invulnérables (point de vie minium = 1) avec deux options :
+- Quand ils ont 3 points de vie il sont couvert par une Pierre tombale (Sphère résistante d'Otiluke) qui les rend invisibles et non-ciblables pendant 1 tour. Après quoi ils redeviennent visibles avec 5 points de vie.
+- Quand ils ont 3 pvs ils deviennent des cadavres inutilisables. (gros cheat ; toujours ciblables par les ennemis). Il ne se relèvent que lorsqu'ils reçoivent des soins.
+(note : cette option peut présenter un bug : si le compagnon n'est pas "humain", comme par exmple Horace, son cadavre est quand même "humain".)
+
+Cette option présente un bug/glitch : si vous réintégrez le suiveur dans le groupe il peut "survivre" à une mort remplacée par l'option choisie. Après quoi il pourra mourir normalement (tant qu'il est dans le groupe).
 
 
 
@@ -45,3 +50,5 @@ V2 : ajout du sort de vision oublié dans la première archive
 	 ajout de l'option "les suiveurs ne peuvent pas mourir".
 V3 : Pour l'option "les suiveurs ne peuvent pas mourir" la Sphère d'Otiluke est remplacée par une pierre tombale : les suiveurs immortels sont vraiment "morts" pendant 1 tour.
 	 Pour l'option "les suiveurs ne peuvent pas mourir" c'est maintenant la Sphère d'Otiluke vanilla qui est lancée : comme ça si elle est modifiée par un mod la modification est prise en compte.
+V4 : Ajout d'une autre possibilité pour "les suiveurs ne peuvent pas mourir".
+	 Ajout de la compatibilité avec IWDEE (si jamais vous installez un des compagnons pour IWDEE crée par Lava Del’Vortel)
