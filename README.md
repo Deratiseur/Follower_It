@@ -12,12 +12,12 @@
 ## Description:
 -------------
 
-Ce mod permet de transformer n'importe quel compagnon en suiveur (qui ne compte pas pas la limite de groupe). Il perd toute possibilité de dialogues, discutions, quête.
+Ce mod permet de transformer n'importe quel compagnon en suiveur (qui ne compte pas pas la limite de groupe). Il perd toute possibilité de dialogues, discutions, quête. (mais il y a une astuce, lisez le lisez_moi)
 
 Il y a deux options pour rendre les suiveurs immortels.
 
 -------------
 
-This mod lets you turn any companion into a follower (who doesn't count against the group limit). He loses all possibility of benters, discussion or quest.
+This mod lets you turn any companion into a follower (who doesn't count against the group limit). He loses all possibility of banters, discussion or quest. (but there is a trick, readme the readme)
 
 There are two options for making followers immortal.
