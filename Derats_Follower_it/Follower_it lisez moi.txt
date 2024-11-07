@@ -1,11 +1,13 @@
 Follower_It
 
 Ce mod permet de transformer n’importe quel compagnon (même ceux venus de mods) en "suiveur" qui ne compte pas dans la limite de groupe.
-Pour changer un compagnon en suiveur, il suffit de lui faire boire une potion qui peut être acheté (stock illimité) :
+Pour changer un compagnon en suiveur, il suffit de lui faire boire une potion (à usages illimités) qui peut être acheté (stock illimité) :
 Dans BG1EE auprés de Bentley Ombremiroir à Brasamical.
 Dans BG2/BG2EE auprés de Hes, sur le promenade de Waukine juste à la sortie du donjon d'Irenicus.
 Dans TOB auprès du tenancier de l'Arbre à Chopines, à Saradush.
-Dans IWDEE auprès d'Oswald à Kuldahar.
+Dans IWDEE auprès de Pomab à Havredest et Oswald à Kuldahar.
+
+
 
 Note sur les suiveurs :
 - Ils n'ont aucun banters, aucun dialogue, aucune quêtes associée.
@@ -16,15 +18,16 @@ Note sur les suiveurs :
    * donnez au suiveur de l'xp à l'aide la console (et équipez le si nécessaire)
    * refaite lui boire une potion pour qu'il redevienne suiveur.
 - Vous pouvez "discuter" avec les suiveurs pour leur demander de revenir dans le groupe, mais je le déconseille : la commande Ctrl+q fonctionne très bien alors que le dialogue de retour ne marche pas très bien avec certain pnjs (certains ne supportant pas d'être exclus du groupe).
-- En utilisant QTRL-Q et la potion vous pouvez faire suivre/reprendre les pjs autant que vous voulez. Vous pouvez déclencher leur quête si vous savez comment faire.
+- En utilisant QTRL-Q et la potion vous pouvez faire suivre/reprendre les pjs autant que vous voulez. Vous pouvez déclencher leur quête si vous savez comment faire. (par exemple réintégrez Jaheira le temps de  parler au baron Ployer)
 
 
 L'option "Les suiveurs ne peuvent pas mourir" les rend invulnérables (point de vie minium = 1) avec deux options :
 - Quand ils ont 3 points de vie il sont couvert par une Pierre tombale (Sphère résistante d'Otiluke) qui les rend invisibles et non-ciblables pendant 1 tour. Après quoi ils redeviennent visibles avec 5 points de vie.
-- Quand ils ont 3 pvs ils deviennent des cadavres inutilisables. (gros cheat ; toujours ciblables par les ennemis). Il ne se relèvent que lorsqu'ils reçoivent des soins.
-(note : cette option peut présenter un bug : si le compagnon n'est pas "humain", comme par exmple Horace, son cadavre est quand même "humain".)
+- Quand ils ont 3 points de vie il sont couvert par une Pierre tombale (Sphère résistante d'Otiluke) qui les rend invisibles et non-ciblables indéfiniment. Pour les faire sortir de cet état, utiliser sur la pierre tombale la baguette (usage infinis) achetée au même endroit que les potions.
 
-Cette option présente un bug/glitch : si vous réintégrez le suiveur dans le groupe il peut "survivre" à une mort remplacée par l'option choisie. Après quoi il pourra mourir normalement (tant qu'il est dans le groupe).
+Cette option présente un bug/glitch : si vous réintégrez le suiveur dans le groupe il peut "survivre" à UNE mort remplacée par l'option choisie. Après quoi il pourra mourir normalement (tant qu'il est dans le groupe).
+
+Cette option ne protège pas les suiveurs des effets de mort / désintégration / pétrification. Si il leur arrive de mourir de ça, vous n'avez plus qu'à leur dire adieu.
 
 
 
@@ -38,7 +41,7 @@ Viconia et ses 65% de RM, elle perd quelques banters sa mini quête, et sa roman
 1 day npc Valen et son drain de niveau cheaté, elle n'a presque rien à dire.
 1 day npc Theal et sa vision véritable et son pouvoir mutant, il n'a presque rien à dire.
 1 day npc Malthis et son équipement cheaté (dont une épée qui draine un niveau sans jds), il n'a presque rien à dire. (gardez le un peu avant de lui faire boire la potion, ses morceaux de quêtes pour le faire évoluer au max s’enchaînent et prennent 10 minutes tout au plus)
-Si vous vous fichez vraiment des dialogues : Yasraena et ses 72% de RM, +1 APR.
+Si vous vous fichez vraiment des dialogues : Yasraena et ses 72% de RM et +1 APR ou Tashia la sorcière avec ses 25% de RM et son lion de combat qui lui à 100% de RM.
 + sûrement d'autres (One day) npcs pas traduits en français qui sont cheatés ^^
 
 
@@ -52,3 +55,6 @@ V3 : Pour l'option "les suiveurs ne peuvent pas mourir" la Sphère d'Otiluke est
 	 Pour l'option "les suiveurs ne peuvent pas mourir" c'est maintenant la Sphère d'Otiluke vanilla qui est lancée : comme ça si elle est modifiée par un mod la modification est prise en compte.
 V4 : Ajout d'une autre possibilité pour "les suiveurs ne peuvent pas mourir".
 	 Ajout de la compatibilité avec IWDEE (si jamais vous installez un des compagnons pour IWDEE crée par Lava Del’Vortel)
+V5 : La potion devient à usage infini.
+	 Dans IWDEE Pomab aussi vend des potions, pour pouvoir crée des suiveurs de niveau 1.
+	 Suppression de la possibilité "Cadavre à la POE" pour "Les suiveurs ne peuvent pas mourir", remplacé par "Réveil par baguette".	 

@@ -5,5 +5,9 @@ If you want to bring the character back into the group, point to him with the cu
 @3 = ~Followers can't die (cheat)~
 @4 = ~This component requires the Enhanced version of the game~
 
-@7 = ~They are covered by a Tombstone (Otiluke's resistant Sphere) for 1 turn and return with 5 hp~
-@8 = ~They become corpses and only rise again when they receive healing~
+
+@7 = ~They are covered by a Tombstone (Otiluke's Sphere resistante) for 1 turn~
+@8 = ~They are covered by a Tombstone (Otiluke's Sphere resistante) indefinitely, wand to raise them~
+
+@9 = ~Follower's reanimation wand~
+@10 = ~Use this wand on a follower's tombstone to bring him back to life with 5 hit points remaining~.

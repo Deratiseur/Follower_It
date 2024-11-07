@@ -1,6 +1,6 @@
 BACKUP ~Derats_Follower_it/Backup~
 AUTHOR ~Deratiseur, at the_deratiseur@hotmail.com~
-VERSION ~v4~
+VERSION ~v5~
 
 ALWAYS
 	ACTION_DEFINE_ARRAY px_reload BEGIN
@@ -17,8 +17,6 @@ ALWAYS
 		END
 	END
 
-
-
 LANGUAGE ~Francais~	~French~
 	~Derats_Follower_it/Languages/French/Setup.tra~
 
@@ -30,23 +28,44 @@ COMPILE ~Derats_Follower_it/Divers/pxfolow.baf~
 COPY	~Derats_Follower_it/Copy~	~override~
 COPY	~Derats_Follower_it/Divers/pxfolow.itm~	~override~	SAY NAME2 @1	SAY DESC @2
 ACTION_IF GAME_IS ~BGT TOB BG2EE EET~ THEN BEGIN
-COPY_EXISTING	~shop06.sto~						~override~  ADD_STORE_ITEM ~pxfolow~ FIRST #1 #0 #0 ~IDENTIFIED~ #1 ~UNLIMITED~
-COPY_EXISTING	~sarbar01.sto~						~override~  ADD_STORE_ITEM ~pxfolow~ FIRST #1 #0 #0 ~IDENTIFIED~ #1 ~UNLIMITED~
+COPY_EXISTING	~shop06.sto~						~override~  ADD_STORE_ITEM ~pxfolow~ FIRST #0 #0 #0 ~IDENTIFIED~ #1 ~UNLIMITED~
+COPY_EXISTING	~sarbar01.sto~						~override~  ADD_STORE_ITEM ~pxfolow~ FIRST #0 #0 #0 ~IDENTIFIED~ #1 ~UNLIMITED~
 END
 ACTION_IF GAME_IS ~BGEE EET~ THEN BEGIN
-COPY_EXISTING	~friend.sto~						~override~  ADD_STORE_ITEM ~pxfolow~ FIRST #1 #0 #0 ~IDENTIFIED~ #1 ~UNLIMITED~
+COPY_EXISTING	~friend.sto~						~override~  ADD_STORE_ITEM ~pxfolow~ FIRST #0 #0 #0 ~IDENTIFIED~ #1 ~UNLIMITED~
 END
 
 ACTION_IF GAME_IS ~IWDEE~ THEN BEGIN
-COPY_EXISTING	~kuoswald.sto~						~override~  ADD_STORE_ITEM ~pxfolow~ FIRST #1 #0 #0 ~IDENTIFIED~ #1 ~UNLIMITED~
+COPY_EXISTING	~ehpomab.sto~						~override~  ADD_STORE_ITEM ~pxfolow~ FIRST #0 #0 #0 ~IDENTIFIED~ #1 ~UNLIMITED~
+COPY_EXISTING	~kuoswald.sto~						~override~  ADD_STORE_ITEM ~pxfolow~ FIRST #0 #0 #0 ~IDENTIFIED~ #1 ~UNLIMITED~
 END
 
 BEGIN @7	SUBCOMPONENT @3 DESIGNATED 1
+REQUIRE_COMPONENT ~setup-Derats_Follower_it.tp2~ ~0~ @5
 REQUIRE_PREDICATE GAME_IS ~BG2EE EET~ @4
-COPY	~Derats_Follower_it/mort~	~override~
 COPY	~Derats_Follower_it/mort1~	~override~
 
 BEGIN @8	SUBCOMPONENT @3 DESIGNATED 2
+REQUIRE_COMPONENT ~setup-Derats_Follower_it.tp2~ ~0~ @5
 REQUIRE_PREDICATE GAME_IS ~BG2EE EET~ @4
-COPY	~Derats_Follower_it/mort~	~override~
+COPY	~Derats_Follower_it/mort1~	~override~
 COPY	~Derats_Follower_it/mort2~	~override~
+COPY	~Derats_Follower_it/Divers/pxflwand.itm~	~override~	SAY NAME2 @9	SAY DESC @10
+COPY_EXISTING	~Spwi413A.spl~				~override/pxflsphe.spl~
+READ_LONG 0x6a effects_off
+READ_SHORT 0x90 num_effects
+FOR (i = 0; i < num_effects; i += 1) BEGIN			
+	WRITE_BYTE (effects_off + 0x30*i + 0x0c) 9
+END
+ACTION_IF GAME_IS ~BGT TOB BG2EE EET~ THEN BEGIN
+COPY_EXISTING	~shop06.sto~						~override~  ADD_STORE_ITEM ~pxflwand~ FIRST #0 #0 #0 ~IDENTIFIED~ #1 ~UNLIMITED~
+COPY_EXISTING	~sarbar01.sto~						~override~  ADD_STORE_ITEM ~pxflwand~ FIRST #0 #0 #0 ~IDENTIFIED~ #1 ~UNLIMITED~
+END
+ACTION_IF GAME_IS ~BGEE EET~ THEN BEGIN
+COPY_EXISTING	~friend.sto~						~override~  ADD_STORE_ITEM ~pxflwand~ FIRST #0 #0 #0 ~IDENTIFIED~ #1 ~UNLIMITED~
+END
+
+ACTION_IF GAME_IS ~IWDEE~ THEN BEGIN
+COPY_EXISTING	~ehpomab.sto~						~override~  ADD_STORE_ITEM ~pxflwand~ FIRST #0 #0 #0 ~IDENTIFIED~ #1 ~UNLIMITED~
+COPY_EXISTING	~kuoswald.sto~						~override~  ADD_STORE_ITEM ~pxflwand~ FIRST #0 #0 #0 ~IDENTIFIED~ #1 ~UNLIMITED~
+END
