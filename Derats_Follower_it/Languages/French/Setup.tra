@@ -1,0 +1,16 @@
+@0 = ~Transformez les compagnons en familier~
+@1 = ~Potion d'Exclusionisation groupalle~
+@2 = ~Le personnage qui boit cette potion devient un suiveur qui ne compte plus dans le nombre maximal de membres du groupe. Par contre cela réduit à zéro son nombres de commentaires et discutions.
+Si vous voulez faire revenir le personnage dans le groupe, pointez le avec le curseur et faites Ctrl+Q.~
+@3 = ~Les suiveurs sont invulnerables (cheat)~
+@4 = ~Ce composant nécessite le jeu en version Enhanced~
+@5 = ~Ce composant nécessite le composant principal~
+
+@7 = ~Fausse mort pendant 1 tour, pierre tombale~
+@8 = ~Fausse mort pendant 1 tour, corps agonisant~
+@9 = ~Fausse mort indefiniment, baguette pour les relever, pierre tombale~
+@10 = ~Fausse mort indefiniment, baguette pour les relever, corps agonisant~
+
+@11 = ~Baguette de réanimation de Suiveur~
+@12 = ~Utilisez cette baguette sur la pierre tombale d'un suiveur pour le ramener à la vie avec 5 points de vie restants~
+@13 = ~Utilisez cette baguette sur le corps d'un suiveur agonisant pour le ramener à la vie avec 5 points de vie restants~

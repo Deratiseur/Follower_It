@@ -22,9 +22,11 @@ Note on followers:
 
 
 
-The "Followers can't die" option makes them invulnerable (minimum hit point = 1) with two options:
-- When they have 3 hit points, they are covered by a Tombstone (Otiluke's Resistant Sphere) which makes them invisible and untargetable for 1 turn. After that, they become visible again with 5 hit points.
-- When they have 3 hit points, they are covered by a Tombstone (Otiluke's resistant sphere) which renders them invisible and untargetable indefinitely. To bring them out of this state, use the wand (infinite use) purchased at the same place as the potions on the tombstone.
+The "Followers are invulnerable" option gives them "minimum hit point = 1" and simulates a "false death" (Otiluke's Resistant Sphere) as soon as they have 3 hit points. There are 4 possible options:
+1) False death for 1 turn, tombstone: the false death lasts one turn and hides the inaccessible follower behind a tombstone.
+2) False death for 1 turn, dying corpse: same as option 1, but the tombstone is replaced by a dying corpse. Note that the corpse is not always easy to see.
+3) Fake death indefinitely, wand to raise them, tombstone: as option 1, but the fake death is permanent. Where you buy potions, you can also buy a wand (infinite charge) that can raise followers in this state.
+4) False death indefinitely, wand to raise them, agonizing corpse: as option 3, but with an agonizing corpse instead of a tombstone.
 
 This option has a bug/glitch: if you reintegrate the follower into the group, he can "survive" ONE death replaced by the chosen option. After that, he can die normally (as long as he's in the group).
 
@@ -48,7 +50,7 @@ If you really don't care about dialogues: Yasraena and her 72% MR and +1 APR or 
 
 
 Version history :
-V1: first online release
+V1: First online release
 V2: Forgotten vision spell in first archive added
 	Added labels for Selphira
 	Added "followers can't die" option.
@@ -57,5 +59,6 @@ V3: For the "followers can't die" option, the Otiluke Sphere is replaced by a to
 V4: Added another option for "followers cannot die".
 	Added compatibility with IWDEE (if you ever install one of the companions for IWDEE created by Lava Del'Vortel)
 V5: The potion becomes infinitely usable.
-	 In IWDEE Pomab also sells potions, to be able to create level 1 followers.
-	 Removal of the "Corpse as in POE" option for "Followers cannot die", replaced by "Awakening by wand".
+	In IWDEE Pomab also sells potions, to be able to create level 1 followers.
+	Removal of the "Corpse as in POE" option for "Followers cannot die", replaced by "Awakening by wand".
+v6: added option "agonizing corpse" instead of the tombstone.

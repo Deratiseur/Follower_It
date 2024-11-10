@@ -1,0 +1,16 @@
+@0 = ~Transform companions into followers~
+@1 = ~Potion of Groupal Exclusionsation~
+@2 = ~The character who drinks this potion no longer counts towards the maximum number of group members. However, it reduces the number of comments and discussions to zero.
+If you want to bring the character back into the group, point to him with the cursor and press Ctrl+Q.~
+@3 = ~Followers are invulnerable (cheat)~
+@4 = ~This component requires the Enhanced version of the game~
+@5 = ~This component requires the main component~
+
+@7 = ~False death for 1 turn, tombstone~
+@8 = ~False dead for 1 turn, agonizing corpse~
+@9 = ~Fake dead indefinitely, wand to raise them, tombstone~
+@10 = ~Fake dead indefinitely, wand to raise them, agonizing corpse~
+
+@11 = ~Follower's reanimation wand~
+@12 = ~Use this wand on a follower's tombstone or corpse to bring him back to life with 5 hit points remaining~
+@13 = ~Use this wand on the body of an agonizing follower to bring him back to life with 5 health points remaining~

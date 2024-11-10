@@ -21,9 +21,11 @@ Note sur les suiveurs :
 - En utilisant QTRL-Q et la potion vous pouvez faire suivre/reprendre les pjs autant que vous voulez. Vous pouvez déclencher leur quête si vous savez comment faire. (par exemple réintégrez Jaheira le temps de  parler au baron Ployer)
 
 
-L'option "Les suiveurs ne peuvent pas mourir" les rend invulnérables (point de vie minium = 1) avec deux options :
-- Quand ils ont 3 points de vie il sont couvert par une Pierre tombale (Sphère résistante d'Otiluke) qui les rend invisibles et non-ciblables pendant 1 tour. Après quoi ils redeviennent visibles avec 5 points de vie.
-- Quand ils ont 3 points de vie il sont couvert par une Pierre tombale (Sphère résistante d'Otiluke) qui les rend invisibles et non-ciblables indéfiniment. Pour les faire sortir de cet état, utiliser sur la pierre tombale la baguette (usage infinis) achetée au même endroit que les potions.
+L'option "Les suiveurs sont invulnérables" leur confère "point de vie minium = 1" et simule une "fausse mort" (Sphère résistante d'Otiluke) dès qu'ils ont 3 points de vie. Il y a 4 options possibles :
+1) Fausse mort pendant 1 tour, pierre tombale : la fausse mort dure un tour et cache le suiveur inaccessible derrière une pierre tombale.
+2) Fausse mort pendant 1 tour, corps agonisant : comme l'option 1 mais la pierre tombale est remplacé par un corps agonisant. Attention, le corps n'est pas toujours facile à voir.
+3) Fausse mort indéfiniment, baguette pour les relever, pierre tombale : comme l'option 1 mais la fausse mort est permanente. À l’endroit où vous achetez les potions vous pouvez aussi acheter une baguette (charges infinies) qui peut relever les suiveurs dans cet état.
+4) Fausse mort indéfiniment, baguette pour les relever, corps agonisant : comme l'option 3 mais avec un corps agonisant à la place de la pierre tombale.
 
 Cette option présente un bug/glitch : si vous réintégrez le suiveur dans le groupe il peut "survivre" à UNE mort remplacée par l'option choisie. Après quoi il pourra mourir normalement (tant qu'il est dans le groupe).
 
@@ -33,15 +35,16 @@ Cette option ne protège pas les suiveurs des effets de mort / désintégration 
 
 Quel intérêt de faire sortir du groupe les pjs s'ils n'ont plus rien à dire ?
 Et bien, prenons en compte les pnjs qui n'ont déjà de base pas grand chose à dire :
-Wilson (BG2EE) le gros tank bien bourrin et qui n'a rien à perdre puisque rien à dire.
-Keldorn et sa super classe et son équipement très cool, il perd quelques banters et sa mini quête.
-Edwin et ses +2 sorts /niveau, il perd quelques banters et sa mini quête.
-Viconia et ses 65% de RM, elle perd quelques banters sa mini quête, et sa romance uniquement si vous jouez une femme.
-1 day npc Horace et ses +2 APR, il n'a presque rien à dire.
-1 day npc Valen et son drain de niveau cheaté, elle n'a presque rien à dire.
-1 day npc Theal et sa vision véritable et son pouvoir mutant, il n'a presque rien à dire.
-1 day npc Malthis et son équipement cheaté (dont une épée qui draine un niveau sans jds), il n'a presque rien à dire. (gardez le un peu avant de lui faire boire la potion, ses morceaux de quêtes pour le faire évoluer au max s’enchaînent et prennent 10 minutes tout au plus)
-Si vous vous fichez vraiment des dialogues : Yasraena et ses 72% de RM et +1 APR ou Tashia la sorcière avec ses 25% de RM et son lion de combat qui lui à 100% de RM.
+Baeloth (BGEE) et ses 50% de RM n'a rien à dire.
+Wilson (BG2EE) le gros tank bien bourrin n'a rien à dire.
+Keldorn et sa super classe et son équipement très cool perdrait quelques banters et sa mini quête.
+Edwin et ses +2 sorts /niveau perdrait quelques banters et sa mini quête.
+Viconia et ses 65% de RM perdrait quelques banters sa mini quête, et sa romance uniquement si vous jouez une femme.
+1 day npc Horace et ses +2 APR perdrait un peu de dialogues.
+1 day npc Valen et son drain de niveau cheaté perdrait un peu de dialogues et un combat super cheaté (sauf si vous savez à quel endroit la réintégrer dans le groupe pour déclencher la rencontre)
+1 day npc Theal et sa vision véritable et son pouvoir mutant perdrait un peu de dialogues.
+1 day npc Malthis et son équipement cheaté (dont une épée qui draine un niveau sans jds) perdrait un peu de dialogues. (gardez le un peu avant de lui faire boire la potion, ses morceaux de quêtes pour le faire évoluer au max s’enchaînent et prennent 10 minutes tout au plus)
+Si vous vous fichez vraiment des dialogues : Yasraena et ses 72% de RM et +1 APR ou Tashia la sorcière avec ses 25% de RM et son lion de combat et ses 100% de RM.
 + sûrement d'autres (One day) npcs pas traduits en français qui sont cheatés ^^
 
 
@@ -57,4 +60,5 @@ V4 : Ajout d'une autre possibilité pour "les suiveurs ne peuvent pas mourir".
 	 Ajout de la compatibilité avec IWDEE (si jamais vous installez un des compagnons pour IWDEE crée par Lava Del’Vortel)
 V5 : La potion devient à usage infini.
 	 Dans IWDEE Pomab aussi vend des potions, pour pouvoir crée des suiveurs de niveau 1.
-	 Suppression de la possibilité "Cadavre à la POE" pour "Les suiveurs ne peuvent pas mourir", remplacé par "Réveil par baguette".	 
+	 Suppression de la possibilité "Cadavre à la POE" pour "Les suiveurs ne peuvent pas mourir", remplacé par "Réveil par baguette".
+v6 : Ajout de l’option "corps agonisant" à la place de la pierre tombale.
