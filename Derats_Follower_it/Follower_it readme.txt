@@ -25,7 +25,7 @@ Note on followers:
 The "Followers are invulnerable" option gives them "minimum hit point = 1" and simulates a "false death" (Otiluke's Resistant Sphere) as soon as they have 3 hit points. There are 4 possible options:
 1) False death for 1 turn, tombstone: the false death lasts one turn and hides the inaccessible follower behind a tombstone.
 2) False death for 1 turn, dying corpse: same as option 1, but the tombstone is replaced by a dying corpse. Note that the corpse is not always easy to see.
-3) Fake death indefinitely, wand to raise them, tombstone: as option 1, but the fake death is permanent. Where you buy potions, you can also buy a wand (infinite charge) that can raise followers in this state.
+3) False death indefinitely, wand to raise them, tombstone: as option 1, but the fake death is permanent. Where you buy potions, you can also buy a wand (infinite charge) that can raise followers in this state.
 4) False death indefinitely, wand to raise them, agonizing corpse: as option 3, but with an agonizing corpse instead of a tombstone.
 
 This option has a bug/glitch: if you reintegrate the follower into the group, he can "survive" ONE death replaced by the chosen option. After that, he can die normally (as long as he's in the group).
@@ -62,3 +62,4 @@ V5: The potion becomes infinitely usable.
 	In IWDEE Pomab also sells potions, to be able to create level 1 followers.
 	Removal of the "Corpse as in POE" option for "Followers cannot die", replaced by "Awakening by wand".
 v6: added option "agonizing corpse" instead of the tombstone.
+v6.1: False death no longer attracts cowled wizards.

@@ -1,7 +1,7 @@
 Follower_It
 
 Ce mod permet de transformer n’importe quel compagnon (même ceux venus de mods) en "suiveur" qui ne compte pas dans la limite de groupe.
-Pour changer un compagnon en suiveur, il suffit de lui faire boire une potion (à usages illimités) qui peut être acheté (stock illimité) :
+Pour changer un compagnon en suiveur, il suffit de lui faire boire une potion (à usages illimités) qui peut être achetée (stock illimité) :
 Dans BG1EE auprés de Bentley Ombremiroir à Brasamical.
 Dans BG2/BG2EE auprés de Hes, sur le promenade de Waukine juste à la sortie du donjon d'Irenicus.
 Dans TOB auprès du tenancier de l'Arbre à Chopines, à Saradush.
@@ -40,7 +40,7 @@ Wilson (BG2EE) le gros tank bien bourrin n'a rien à dire.
 Keldorn et sa super classe et son équipement très cool perdrait quelques banters et sa mini quête.
 Edwin et ses +2 sorts /niveau perdrait quelques banters et sa mini quête.
 Viconia et ses 65% de RM perdrait quelques banters sa mini quête, et sa romance uniquement si vous jouez une femme.
-1 day npc Horace et ses +2 APR perdrait un peu de dialogues.
+1 day npc Horace et ses +2 APR + un tas d'autres trucs cheatés perdrait un peu de dialogues.
 1 day npc Valen et son drain de niveau cheaté perdrait un peu de dialogues et un combat super cheaté (sauf si vous savez à quel endroit la réintégrer dans le groupe pour déclencher la rencontre)
 1 day npc Theal et sa vision véritable et son pouvoir mutant perdrait un peu de dialogues.
 1 day npc Malthis et son équipement cheaté (dont une épée qui draine un niveau sans jds) perdrait un peu de dialogues. (gardez le un peu avant de lui faire boire la potion, ses morceaux de quêtes pour le faire évoluer au max s’enchaînent et prennent 10 minutes tout au plus)
@@ -62,3 +62,4 @@ V5 : La potion devient à usage infini.
 	 Dans IWDEE Pomab aussi vend des potions, pour pouvoir crée des suiveurs de niveau 1.
 	 Suppression de la possibilité "Cadavre à la POE" pour "Les suiveurs ne peuvent pas mourir", remplacé par "Réveil par baguette".
 v6 : Ajout de l’option "corps agonisant" à la place de la pierre tombale.
+v6.1 : La Fausse mort n'attire plus les mages cagoulés.
