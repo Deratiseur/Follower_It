@@ -17,6 +17,8 @@ Ce mod permet de transformer n'importe quel compagnon en suiveur (qui ne compte 
 
 Il y a deux options pour rendre les suiveurs invincibles.
 
+Note : il y a sur le Repo de Plutonium_X quelques One day Npcs qui par leur naturel manque de dialogues font de très bon "suiveurs" :  <a href=(https://github.com/Plutonium-X/1D_NPC_Horace)>Horace</a>, 
+
 -------------
 
 This mod lets you turn any companion into a follower (who doesn't count against the group limit). He loses all possibility of banters, discussion or quest. (but there is a trick, readme the readme)
