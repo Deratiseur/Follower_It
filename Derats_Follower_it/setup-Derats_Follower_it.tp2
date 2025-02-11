@@ -1,6 +1,6 @@
 BACKUP ~Derats_Follower_it/Backup~
 AUTHOR ~Deratiseur, at the_deratiseur@hotmail.com~
-VERSION ~v6.1~
+VERSION ~v6.2~
 
 ALWAYS
 	ACTION_DEFINE_ARRAY px_reload BEGIN
@@ -14,7 +14,7 @@ ALWAYS
 			tra_path = EVAL ~%MOD_FOLDER%/Languages~
 			noconvert_array = px_noconvert
 			reload_array = px_reload
-		END	
+		END
 	END
 	
 
@@ -27,7 +27,7 @@ LANGUAGE ~English~	~English~
 BEGIN @0	DESIGNATED 0
 COMPILE ~Derats_Follower_it/Divers/pxfolow.baf~
 COPY	~Derats_Follower_it/Copy~	~override~
-COPY	~Derats_Follower_it/Divers/pxfolow.itm~	~override~	SAY NAME2 @1	SAY DESC @2
+COPY	~Derats_Follower_it/Divers/pxfolow.itm~		~override~	SAY NAME2 @1	SAY DESC @2
 ACTION_IF GAME_IS ~BGT TOB BG2EE EET~ THEN BEGIN
 COPY_EXISTING	~shop06.sto~						~override~  ADD_STORE_ITEM ~pxfolow~ FIRST #0 #0 #0 ~IDENTIFIED~ #1 ~UNLIMITED~
 COPY_EXISTING	~sarbar01.sto~						~override~  ADD_STORE_ITEM ~pxfolow~ FIRST #0 #0 #0 ~IDENTIFIED~ #1 ~UNLIMITED~

@@ -19,6 +19,7 @@ Note on followers:
    * have him drink a potion to become a follower again.
 - You can " talk " to followers to ask them to return to the group, but I don't recommend it: the Ctrl+q command works very well, whereas the return dialogue doesn't work very well with certain pnjs (some can't stand being excluded from the group).
 - Using QTRL-Q and the potion, you can make the pjs follow/return as much as you like. You can trigger their quest if you know how.
+- They become hostile if they are targeted by an allied spell/attack (or if they are caught in the area of a spell like Fireball). In this case, the only solution is to reintegrate them into the group.
 
 
 
@@ -63,3 +64,6 @@ V5: The potion becomes infinitely usable.
 	Removal of the "Corpse as in POE" option for "Followers cannot die", replaced by "Awakening by wand".
 v6: added option "agonizing corpse" instead of the tombstone.
 v6.1: False death no longer attracts cowled wizards.
+v6.2: The potion was not infinite (again, forgot to copy a file in Github).
+      After several followirisation/reintegration/false deaths, the reanimation wand no longer worked: the follower remained "dead" indefinitely. Attempted to fix this (not sure).
+	  Added in the readme note that followers don't like to be attacked/targeted by an allied spell.

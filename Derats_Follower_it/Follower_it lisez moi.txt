@@ -19,6 +19,7 @@ Note sur les suiveurs :
    * refaite lui boire une potion pour qu'il redevienne suiveur.
 - Vous pouvez "discuter" avec les suiveurs pour leur demander de revenir dans le groupe, mais je le déconseille : la commande Ctrl+q fonctionne très bien alors que le dialogue de retour ne marche pas très bien avec certain pnjs (certains ne supportant pas d'être exclus du groupe).
 - En utilisant QTRL-Q et la potion vous pouvez faire suivre/reprendre les pjs autant que vous voulez. Vous pouvez déclencher leur quête si vous savez comment faire. (par exemple réintégrez Jaheira le temps de  parler au baron Ployer)
+- Ils deviennent hostiles s'ils sont visés par un sort/une attaque allié (ou si sont pris dans l'ère d'un sort comme Boule de feu). Dans ce cas la seule solution est de les réintégrer au groupe.
 
 
 L'option "Les suiveurs sont invulnérables" leur confère "point de vie minium = 1" et simule une "fausse mort" (Sphère résistante d'Otiluke) dès qu'ils ont 3 points de vie. Il y a 4 options possibles :
@@ -63,3 +64,6 @@ V5 : La potion devient à usage infini.
 	 Suppression de la possibilité "Cadavre à la POE" pour "Les suiveurs ne peuvent pas mourir", remplacé par "Réveil par baguette".
 v6 : Ajout de l’option "corps agonisant" à la place de la pierre tombale.
 v6.1 : La Fausse mort n'attire plus les mages cagoulés.
+v6.2 : La potion n’était pas infinie (encore et toujours oubli de copie de fichier dans Github).
+       Après plusieurs followirisation/réintégration/fausses morts la baguette de réanimation ne marchait plus : le suiveur restait indéfiniment "mort". Tentative de correction de ça (pas assuré).
+	   Ajout dans le lisez_moi de la note comme quoi les suiveurs n'aiment pas être attaqué/visé par un sort allié.
