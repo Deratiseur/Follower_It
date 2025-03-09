@@ -21,6 +21,6 @@ Note : il y a sur le Repo de Plutonium_X quelques One day Npcs qui par leur manq
 
 -------------
 
-This mod lets you turn any companion into a follower (who doesn't count against the group limit). He loses all possibility of banters, discussion or quest. (but there is a trick, readme the readme)
+This mod lets you turn any companion into a follower (who doesn't count against the group limit). He loses all possibility of banters, discussion or quest. (but there is a trick, read the readme)
 
 There are two options for making followers invincibles.
