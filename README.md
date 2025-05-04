@@ -24,3 +24,5 @@ Note : il y a sur le Repo de Plutonium_X quelques One day Npcs qui par leur manq
 This mod lets you turn any companion into a follower (who doesn't count against the group limit). He loses all possibility of banters, discussion or quest. (Metagaming: you can always reintegrate him into the group at certain key moments, such as reintegrating Jaheira before entering the Sea's Bounty)
 
 There are two options for making followers invincibles.
+
+Note: there are a few One day Npcs on the Plutonium_X Repo which, with their blatant lack of dialogue, make very good ‘followers’: <a href=https://github.com/Plutonium-X/1D_NPC_Horace>Horace</a>, <a href=https://github.com/Plutonium-X/1D_NPC_Chiara>Chiara</a>, <a href=https://github.com/Plutonium-X/1D_NPC_Mhoram>Mhoram</a>, <a href=https://github.com/Plutonium-X/1D_NPC_Moddie>Moddie</a>, <a href=https://github.com/Plutonium-X/1D_NPC_Malthis>Malthis</a>, <a href=https://github.com/Plutonium-X/1D_NPC_Mawgul>Mawgul</a>, <a href=https://github.com/Plutonium-X/1D_NPC_Larsha>Larsha</a>...
