@@ -17,7 +17,7 @@ Ce mod permet de transformer n'importe quel compagnon en suiveur (qui ne compte 
 
 Il y a deux options pour rendre les suiveurs invincibles.
 
-Note : il y a sur le Repo de Plutonium_X quelques One day Npcs qui par leur manque criant de dialogues font de très bon "suiveurs" : <a href=https://github.com/Plutonium-X/1D_NPC_Horace>Horace</a>, <a href=https://github.com/Plutonium-X/1D_NPC_Chiara>Chiara</a>, <a href=https://github.com/Plutonium-X/1D_NPC_Mhoram>Mhoram</a>, <a href=https://github.com/Plutonium-X/1D_NPC_Moddie>Moddie</a>, <a href=https://github.com/Plutonium-X/1D_NPC_Malthis>Malthis</a>, <a href=https://github.com/Plutonium-X/1D_NPC_Mawgul>Mawgul</a>, <a href=https://github.com/Plutonium-X/1D_NPC_Larsha>Larsha</a>...
+Note : il y a sur le Repo de <a href=https://github.com/Plutonium-X>Plutonium_X</a> quelques One day Npcs qui par leur manque criant de dialogues font de très bon "suiveurs" : <a href=https://github.com/Plutonium-X/1D_NPC_Horace>Horace</a>, <a href=https://github.com/Plutonium-X/1D_NPC_Chiara>Chiara</a>, <a href=https://github.com/Plutonium-X/1D_NPC_Mhoram>Mhoram</a>, <a href=https://github.com/Plutonium-X/1D_NPC_Moddie>Moddie</a>, <a href=https://github.com/Plutonium-X/1D_NPC_Malthis>Malthis</a>, <a href=https://github.com/Plutonium-X/1D_NPC_Mawgul>Mawgul</a>, <a href=https://github.com/Plutonium-X/1D_NPC_Larsha>Larsha</a>...
 
 -------------
 
@@ -25,4 +25,4 @@ This mod lets you turn any companion into a follower (who doesn't count against 
 
 There are two options for making followers invincibles.
 
-Note: there are a few One day Npcs on the Plutonium_X Repo which, with their blatant lack of dialogue, make very good ‘followers’: <a href=https://github.com/Plutonium-X/1D_NPC_Horace>Horace</a>, <a href=https://github.com/Plutonium-X/1D_NPC_Chiara>Chiara</a>, <a href=https://github.com/Plutonium-X/1D_NPC_Mhoram>Mhoram</a>, <a href=https://github.com/Plutonium-X/1D_NPC_Moddie>Moddie</a>, <a href=https://github.com/Plutonium-X/1D_NPC_Malthis>Malthis</a>, <a href=https://github.com/Plutonium-X/1D_NPC_Mawgul>Mawgul</a>, <a href=https://github.com/Plutonium-X/1D_NPC_Larsha>Larsha</a>...
+Note: there are a few One day Npcs on the <a href=https://github.com/Plutonium-X>Plutonium_X</a> Repo which, with their blatant lack of dialogue, make very good ‘followers’: <a href=https://github.com/Plutonium-X/1D_NPC_Horace>Horace</a>, <a href=https://github.com/Plutonium-X/1D_NPC_Chiara>Chiara</a>, <a href=https://github.com/Plutonium-X/1D_NPC_Mhoram>Mhoram</a>, <a href=https://github.com/Plutonium-X/1D_NPC_Moddie>Moddie</a>, <a href=https://github.com/Plutonium-X/1D_NPC_Malthis>Malthis</a>, <a href=https://github.com/Plutonium-X/1D_NPC_Mawgul>Mawgul</a>, <a href=https://github.com/Plutonium-X/1D_NPC_Larsha>Larsha</a>...
