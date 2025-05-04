@@ -13,7 +13,7 @@
 ## Description:
 -------------
 
-Ce mod permet de transformer n'importe quel compagnon en suiveur (qui ne compte pas pas la limite de groupe). Il perd toute possibilité de dialogues, discutions, quête. (mais il y a une astuce, lisez le lisez_moi)
+Ce mod permet de transformer n'importe quel compagnon en suiveur (qui ne compte pas pas la limite de groupe). Il perd toute possibilité de dialogues, discutions, quête. (Metagaming : vous pouvez toujours le réintégrer dans le groupe à certains moments clefs, comme par exemple réintégrer Jaheira avant d'entrer dans la Bonté marine)
 
 Il y a deux options pour rendre les suiveurs invincibles.
 
@@ -21,6 +21,6 @@ Note : il y a sur le Repo de Plutonium_X quelques One day Npcs qui par leur manq
 
 -------------
 
-This mod lets you turn any companion into a follower (who doesn't count against the group limit). He loses all possibility of banters, discussion or quest. (but there is a trick, read the readme)
+This mod lets you turn any companion into a follower (who doesn't count against the group limit). He loses all possibility of banters, discussion or quest. (Metagaming: you can always reintegrate him into the group at certain key moments, such as reintegrating Jaheira before entering the Sea's Bounty)
 
 There are two options for making followers invincibles.
