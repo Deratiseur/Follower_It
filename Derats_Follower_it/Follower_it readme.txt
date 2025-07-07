@@ -67,3 +67,4 @@ v6.1: False death no longer attracts cowled wizards.
 v6.2: The potion was not infinite (again, forgot to copy a file in Github).
       After several followirisation/reintegration/false deaths, the reanimation wand no longer worked: the follower remained "dead" indefinitely. Attempted to fix this (not sure).
 	  Added in the readme note that followers don't like to be attacked/targeted by an allied spell.
+V6.3: the “followers can't die” options didn't install on IWDEE.

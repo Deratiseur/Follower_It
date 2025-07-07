@@ -67,3 +67,4 @@ v6.1 : La Fausse mort n'attire plus les mages cagoulés.
 v6.2 : La potion n’était pas infinie (encore et toujours oubli de copie de fichier dans Github).
        Après plusieurs followirisation/réintégration/fausses morts la baguette de réanimation ne marchait plus : le suiveur restait indéfiniment "mort". Tentative de correction de ça (pas assuré).
 	   Ajout dans le lisez_moi de la note comme quoi les suiveurs n'aiment pas être attaqué/visé par un sort allié.
+V6.3 : les options de "les suiveurs ne peuvent pas mourir" ne s'installaient pas sur IWDEE.
